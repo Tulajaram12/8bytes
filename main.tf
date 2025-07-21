@@ -1,6 +1,6 @@
 provider "vault" {
       address = "https://127.0.0.1:8200"
-      token = "hvs.2fBC2NLAaDy3qigi2Zn25o7R"
+      token = ""
       skip_tls_verify  = true
 }
 
