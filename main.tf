@@ -1,20 +1,3 @@
-provider "vault" {
-      address = "https://127.0.0.1:8200"
-      token = ""
-      skip_tls_verify  = true
-}
-
-data "vault_generic_secret" "aws_credentials" {
-      path = "my-secrets/aws"
-}
-
-
-provider "aws" {
-      region     = "ap-south-1"
-      access_key = data.vault_generic_secret.aws_credentials.data["aws_access_key_id"]
-      secret_key = data.vault_generic_secret.aws_credentials.data["aws_secret_access_key"]
-}
-
 module "vpc" {
       source = "terraform-aws-modules/vpc/aws"
 
