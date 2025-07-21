@@ -1,0 +1,22 @@
+nohup: ignoring input
+==> Vault server configuration:
+
+Administrative Namespace: 
+                     Cgo: disabled
+   Environment Variables: HOME, LANG, LESSCLOSE, LESSOPEN, LOGNAME, LS_COLORS, MAIL, OLDPWD, PATH, PWD, SHELL, SHLVL, TERM, USER, XDG_DATA_DIRS, _
+              Go Version: go1.24.4
+              Listener 1: tcp (addr: "0.0.0.0:8200", cluster address: "0.0.0.0:8201", disable_request_limiter: "false", max_request_duration: "1m30s", max_request_size: "33554432", tls: "enabled")
+               Log Level: 
+                   Mlock: supported: true, enabled: true
+           Recovery Mode: false
+                 Storage: file
+                 Version: Vault v1.20.0, built 2025-06-23T10:21:30Z
+             Version Sha: 6fdd6b59e97d97a9e19b0fb5304bf879c190295e
+
+==> Vault server started! Log data will stream in below:
+
+2025-07-19T17:34:45.482Z [INFO]  proxy environment: http_proxy="" https_proxy="" no_proxy=""
+2025-07-19T17:34:45.488Z [INFO]  incrementing seal generation: generation=1
+2025-07-19T17:34:45.488Z [WARN]  no `api_addr` value specified in config or in VAULT_API_ADDR; falling back to detection if possible, but this value should be manually set
+2025-07-19T17:34:48.813Z [INFO]  core: Initializing version history cache for core
+2025-07-19T17:34:48.813Z [INFO]  events: Starting event system
