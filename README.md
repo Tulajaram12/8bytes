@@ -1,18 +1,19 @@
-
 # 🚀 8Byte Terraform Infrastructure Deployment
 
-This project provisions a secure, highly available AWS infrastructure using **Terraform** with centralized secrets management via **HashiCorp Vault** and **AWS Secrets Manager**. It also ensures best practices for cost optimization and disaster recovery planning.
+This project provisions a secure, highly available AWS infrastructure using **Terraform**, with centralized secrets management via **HashiCorp Vault** and **AWS Secrets Manager**. It also ensures best practices for **cost optimization**, **disaster recovery planning**, and **multi-AZ deployments**.
 
 ---
 
-## 📦 Project Structure
+## 📁 Project Structure
 
-8Byte_Assignment
-├── backend.tf # S3 + DynamoDB remote state backend
-├── main.tf # Terraform infrastructure logic
-├── variables.tf # Input variable declarations
-├── terraform.tfvars # Variable values
-├── outputs.tf # Output values
+```plaintext
+8Byte_Assignment/
+├── backend.tf           # Remote state storage configuration (S3 + DynamoDB)
+├── main.tf              # Core infrastructure setup using terraform-aws-modules
+├── variables.tf         # Input variable declarations
+├── terraform.tfvars     # Actual variable values
+├── outputs.tf           # Output resources like instance IDs, VPC IDs, etc.
+
 
 
 
