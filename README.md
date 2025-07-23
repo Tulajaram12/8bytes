@@ -14,10 +14,6 @@ This project provisions a secure, highly available AWS infrastructure using **Te
 ├── terraform.tfvars     # Actual variable values
 ├── outputs.tf           # Output resources like instance IDs, VPC IDs, etc.
 
-
-
-
-
 ---
 
 ## 🔧 Setup Instructions
