@@ -133,12 +133,12 @@ Used terraform-aws-modules from the Terraform Registry to build faster and with 
 
 
 
-✅ Best Practices Followed
+✅ Best Practices
 Remote state with locking (S3 + DynamoDB).
 
 Secrets stored securely (Vault + Secrets Manager).
 
-High availability and DR-ready infra.
+High availability and DR-ready infra must be implemented in Production environmnet 
 
 Access control and subnet-level isolation.
 
