@@ -7,7 +7,7 @@ This project provisions a secure, highly available AWS infrastructure using **Te
 
 ## 📦 Project Structure
 
-8Byte_Assignment/
+8Byte_Assignment
 ├── backend.tf # S3 + DynamoDB remote state backend
 ├── main.tf # Terraform infrastructure logic
 ├── variables.tf # Input variable declarations
