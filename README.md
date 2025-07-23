@@ -101,9 +101,7 @@ Disaster Recovery (DR) strategy in place for critical workloads.
 
 
 ▶️ Running Terraform
-bash
-Copy
-Edit
+
 # Switch to root
 sudo su - root
 
